@@ -188,7 +188,7 @@ function pay(){
   document.getElementById('modal').style.display='none';
   const el = document.getElementById('success');
   el.style.display='block';
-  el.innerHTML = `\n    <h2>✅ Оплата прошла</h2>\n    <p>Билет: ${selected}</p>\n    <p>Отправлен на почту</p>\n  `;
+  el.innerHTML = `\n    <h2>✅ Оплата принята</h2>\n    <p>Билет: ${selected}</p>\n    <p>С вами свяжется оператор для подтверждения</p>\n    <p>После подтверждения средства будут автоматически списаны</p>\n  `;
 
   window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
 }
